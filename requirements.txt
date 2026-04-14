@@ -1,0 +1,16 @@
+langchain-google-genai
+langgraph
+langchain-community
+chromadb
+torch
+torchvision
+timm
+streamlit
+vectorbt
+alpaca-py
+python-dotenv
+pandas
+requests
+beautifulsoup4
+yfinance
+kagglehub

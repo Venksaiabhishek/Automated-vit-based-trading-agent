@@ -1,0 +1,30 @@
+# Virtual Environment
+.venv/
+venv/
+env/
+ENV/
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# IDEs
+.idea/
+.vscode/
+
+# Environment variables
+.env
+
+# Logs and Data
+*.log
+data/
+
+# Model weights (too large for GitHub)
+*.pth
+
+# OS files
+.DS_Store
+
+# ChromaDB
+.chroma_db/
