@@ -17,6 +17,10 @@ from .deep_search import detect_conflict, deep_search_resolve
 
 logger = logging.getLogger(__name__)
 
+# Bridge GEMINI_API_KEY → GOOGLE_API_KEY for langchain-google-genai
+if not os.environ.get("GOOGLE_API_KEY") and os.environ.get("GEMINI_API_KEY"):
+    os.environ["GOOGLE_API_KEY"] = os.environ["GEMINI_API_KEY"]
+
 
 # ─── Node 1: Data Fetcher ───
 
